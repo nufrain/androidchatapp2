@@ -1,0 +1,148 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@nufrain 
+Learn Git and GitHub without any code!
+Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
+
+
+dehainc
+/
+androidchatapp
+1
+01
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+You’re making changes in a project you don’t have write access to. Submitting a change will write it to a new branch in your fork nufrain/androidchatapp, so you can send a pull request.
+androidchatapp
+/
+commands
+in
+dehainc:main
+ 
+
+Spaces
+
+1
+
+No wrap
+1
+Приложение 1. 
+2
+​
+3
+package com.example.projectn; 
+4
+​
+5
+ 
+6
+​
+7
+import android.os.Bundle; 
+8
+​
+9
+import android.app.Activity; 
+10
+​
+11
+import android.view.Menu; 
+12
+​
+13
+import android.view.View; 
+14
+​
+15
+import android.widget.*; 
+16
+​
+17
+ 
+18
+​
+19
+public class MainActivity extends Activity { 
+20
+​
+21
+  TextView tvInfo; 
+22
+​
+23
+  EditText etInput; 
+24
+​
+25
+  Button bControl; 
+26
+​
+27
+   
+28
+​
+29
+  int guess; 
+30
+​
+31
+  boolean gameFinished; 
+32
+​
+33
+ 
+34
+​
+35
+  @Override 
+36
+​
+37
+  protected void onCreate(Bundle savedInstanceState) { 
+38
+​
+39
+    super.onCreate(savedInstanceState); 
+40
+​
+41
+    setContentView(R.layout.activity_main); 
+42
+​
+43
+     
+44
+​
+45
+    tvInfo = (TextView)findViewById(R.id.textView1); 
+@nufrain
+Propose changes
+Commit summary
+Create commands
+Optional extended description
+Add an optional extended description…
+ 
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
